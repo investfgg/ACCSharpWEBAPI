@@ -1,4 +1,5 @@
 Este repositório consta o projeto em C#.NET 8.0, utilizando o editor Visual Studio (Community versão 2022):
+
     • Versão .NET: 8;
     • Extensões: SonarLint (Controle de Código)
     • Dependências:
