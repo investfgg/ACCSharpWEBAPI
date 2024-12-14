@@ -1,17 +1,17 @@
 Este repositório consta o projeto em C#.NET 8.0, utilizando o editor Visual Studio (Community versão 2022):
-  •	Versão .NET: 8;
-  •	Extensões: SonarLint (Controle de Código)
-  •	Dependências:
-    o	Frameworks:
-      	Microsoft.AspNetCore.App
-      	Microsoft.NETCore.App
-    o	Pacotes:
-      	Microsoft.AspNetCore.Mvc.NewtonsoftJson
-      	Microsoft.EntityFrameworkCore.Design
-      	Microsoft.EntityFrameworkCore.Tools
-      	Microsoft.VisualStudio.Web.CodeGeneration.Design
-      	Pomelo.EntityFrameworkCore.MySql
-      	Swashbuckle.AspNetCore
+    • Versão .NET: 8;
+    • Extensões: SonarLint (Controle de Código)
+    • Dependências:
+      o Frameworks:
+         Microsoft.AspNetCore.App
+         Microsoft.NETCore.App
+      o Pacotes:
+         Microsoft.AspNetCore.Mvc.NewtonsoftJson
+         Microsoft.EntityFrameworkCore.Design
+         Microsoft.EntityFrameworkCore.Tools
+         Microsoft.VisualStudio.Web.CodeGeneration.Design
+         Pomelo.EntityFrameworkCore.MySql
+         Swashbuckle.AspNetCore
 
 A finalidade deste projeto é controlar o acesso ao usuário pela aplicação não de si mesmo e sim de outras.
 
@@ -24,10 +24,10 @@ Elaboração de tabelas e seus respectivos relacionamentos escritas em MySQL Wor
   Detalhes gerais do BD de Controle de Acesso (Tabelas e Stored Procedures).
 
 O propósito geral é testar as funcionalidades nas tabelas com seus relacionamentos baseadas em CRUD via WEB API (com utilização de Hibernate local) com regras básicas de negócio mas sem utilizar os métodos do BD MySQL (Stored Procedures):
-•	nulos.
-•	conferência de senha (funções próprias do C#, para garantia de segurança).
-•	tamanho escasso (menos de 3 caracteres) ou em excesso (acima do permitido).
-•	existência de campos chaves nos relacionamentos.
+    • nulos.
+    • conferência de senha (funções próprias do C#, para garantia de segurança).
+    • tamanho escasso (menos de 3 caracteres) ou em excesso (acima do permitido).
+    • existência de campos chaves nos relacionamentos.
 
 ![image](https://github.com/user-attachments/assets/be94e714-7eff-480c-a7bb-0ad9a14f378e)
 
