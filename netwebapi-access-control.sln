@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "netwebapi-access-control", "netwebapi-access-control.csproj", "{37F05017-D799-42AD-9A99-90A83D463250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37F05017-D799-42AD-9A99-90A83D463250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F05017-D799-42AD-9A99-90A83D463250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F05017-D799-42AD-9A99-90A83D463250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F05017-D799-42AD-9A99-90A83D463250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2E7F1EF-43BA-49F2-A662-B02A7AD6FB74}
+	EndGlobalSection
+EndGlobal
