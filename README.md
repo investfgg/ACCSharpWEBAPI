@@ -25,6 +25,7 @@ Elaboração de tabelas e seus respectivos relacionamentos escritas em MySQL Wor
   Detalhes gerais do BD de Controle de Acesso (Tabelas e Stored Procedures).
 
 O propósito geral é testar as funcionalidades nas tabelas com seus relacionamentos baseadas em CRUD via WEB API (com utilização de Hibernate local) com regras básicas de negócio mas sem utilizar os métodos do BD MySQL (Stored Procedures):
+
     • nulos.
     • conferência de senha (funções próprias do C#, para garantia de segurança).
     • tamanho escasso (menos de 3 caracteres) ou em excesso (acima do permitido).
